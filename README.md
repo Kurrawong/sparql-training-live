@@ -4,7 +4,13 @@
 
 This repository contains [Jupyter Notebooks]() for training in the [SPARQL]() query language.
 
-The content is delivered in a series of modules, the first 3 of which are entirely generic and the fourth - "SPARQL In Practice" - is also generic but uses examples from Queensland's Address Database, _QALI_, which is delivered online in a form that can be SPARQL queried.
+The content is delivered in a series of modules, the first 4 of which are entirely generic and the 5th - "QALI-specific querying" - uses examples from Queensland's Address Database, _QALI_, but is generic in the concepts conveyed. The QALI database is likely to be delivered online in a form that can be SPARQL queried but queryable data is supplied in the notwbook too.
+
+1. Intro to RDF
+2. Querying RDF - SPARQL
+3. All about SPARQL
+4. Extending SPARQL
+5. QALI-specific querying
 
 ## License
 
