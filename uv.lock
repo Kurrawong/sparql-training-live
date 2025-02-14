@@ -318,6 +318,15 @@ wheels = [
 ]
 
 [[package]]
+name = "html5rdf"
+version = "1.2.1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/4c/55/1b839c43f5ed8207e17a9a02d8b395179520b8b4f00c00a41e113bc205ca/html5rdf-1.2.1.tar.gz", hash = "sha256:ace9b420ce52995bb4f05e7425eedf19e433c981dfe7a831ab391e2fa2e1a195", size = 287899 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/7d/c9/f6e1e8567660bc5b0aba281f2b0017b2a7665fcad6bf3ed67286a0c72cd4/html5rdf-1.2.1-py2.py3-none-any.whl", hash = "sha256:1f519121bc366af3e485310dc8041d2e86e5173c1a320fac3dc9d2604069b83e", size = 109765 },
+]
+
+[[package]]
 name = "httpcore"
 version = "1.0.7"
 source = { registry = "https://pypi.org/simple" }
@@ -648,17 +657,18 @@ wheels = [
 
 [[package]]
 name = "kurra"
-version = "1.1.0"
+version = "1.4.2"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "httpx" },
+    { name = "pyshacl" },
     { name = "rdflib" },
     { name = "rich" },
     { name = "typer" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/3b/c8/976c4b49ea1f370de088a1a7386e3cd722ab3b7e8558c0024ffa133beb23/kurra-1.1.0.tar.gz", hash = "sha256:bb6642ffc41e1a6aad7a4bac16a67c0cb2feec13338e5171d052a613bcdff965", size = 52654 }
+sdist = { url = "https://files.pythonhosted.org/packages/cb/bc/3b0eed5632c91091cfc5acb93b9aa3e7cce31f071f82f672c48a9ef2bca2/kurra-1.4.2.tar.gz", hash = "sha256:9c617fc4af5a715a9a0b4879e4044038787ecde1ec9d66e18e33f485f927be99", size = 95125 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/cc/09/7ac62393e6c7c282f9e039fc25268cae841c38934a52a35e07fbcba09f1a/kurra-1.1.0-py3-none-any.whl", hash = "sha256:27552b967470aa4e16a874be582fbe683f66f26f929cff2cd267101d72af01ff", size = 15273 },
+    { url = "https://files.pythonhosted.org/packages/0d/a4/4c7532807dbfffa014f2d25dab8879794ff7f22b6a368b7da1ba4ee2ee92/kurra-1.4.2-py3-none-any.whl", hash = "sha256:ca013bfbc775de2bc116e5c8b7518a1429844d21a5df5fbf50e1e45c35ac08aa", size = 18190 },
 ]
 
 [[package]]
@@ -843,6 +853,18 @@ wheels = [
 ]
 
 [[package]]
+name = "owlrl"
+version = "7.1.3"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "rdflib" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/23/ea/2f0bde9ba07aeafce53e8ca89a158ae2fb196ccc396d2d10263f33b02d53/owlrl-7.1.3.tar.gz", hash = "sha256:c9acf66135821ed7a6c4e002387bdb60a5804c86bf0210310df7d5a5da5d2eb1", size = 45026 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/f5/49/a29d0b6e615048f7f01b640711c9cb8c07973a3a65c04e731d508f7a3a5f/owlrl-7.1.3-py3-none-any.whl", hash = "sha256:371076ed3427b7962bf5675aded0bb2d23bee61595b85582f8dce11f75ee10a8", size = 51921 },
+]
+
+[[package]]
 name = "packaging"
 version = "24.2"
 source = { registry = "https://pypi.org/simple" }
@@ -888,6 +910,18 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/13/fc/128cc9cb8f03208bdbf93d3aa862e16d376844a14f9a0ce5cf4507372de4/platformdirs-4.3.6.tar.gz", hash = "sha256:357fb2acbc885b0419afd3ce3ed34564c13c9b95c89360cd9563f73aa5e2b907", size = 21302 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/3c/a6/bc1012356d8ece4d66dd75c4b9fc6c1f6650ddd5991e421177d9f8f671be/platformdirs-4.3.6-py3-none-any.whl", hash = "sha256:73e575e1408ab8103900836b97580d5307456908a03e92031bab39e4554cc3fb", size = 18439 },
+]
+
+[[package]]
+name = "prettytable"
+version = "3.14.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "wcwidth" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/02/7b/18bb59d7c3a4ac9ac7d986cfe49dd3c2e5f5ae3e65ca3db8816764e0c1df/prettytable-3.14.0.tar.gz", hash = "sha256:b804b8d51db23959b96b329094debdbbdf10c8c3aa75958c5988cfd7f78501dd", size = 61747 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/5b/a2/fa0679e7a64b564074a8aa680c664ba8e6770166034f035a22ce74e55ae5/prettytable-3.14.0-py3-none-any.whl", hash = "sha256:61d5c68f04a94acc73c7aac64f0f380f5bed4d2959d59edc6e4cbb7a0e7b55c4", size = 31894 },
 ]
 
 [[package]]
@@ -969,6 +1003,21 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/8b/1a/3544f4f299a47911c2ab3710f534e52fea62a633c96806995da5d25be4b2/pyparsing-3.2.1.tar.gz", hash = "sha256:61980854fd66de3a90028d679a954d5f2623e83144b5afe5ee86f43d762e5f0a", size = 1067694 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/1c/a7/c8a2d361bf89c0d9577c934ebb7421b25dc84bf3a8e3ac0a40aed9acc547/pyparsing-3.2.1-py3-none-any.whl", hash = "sha256:506ff4f4386c4cec0590ec19e6302d3aedb992fdc02c761e90416f158dacf8e1", size = 107716 },
+]
+
+[[package]]
+name = "pyshacl"
+version = "0.30.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "owlrl" },
+    { name = "packaging" },
+    { name = "prettytable" },
+    { name = "rdflib", extra = ["html"] },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/67/3b/4621cca0f67a2c8365ed00443b8c327cbd1b2ff94015d0b9636f0829a2ec/pyshacl-0.30.0.tar.gz", hash = "sha256:449188b07ca46681097d732e9308d42c211ee903784742f8c3e8a0e36e98f728", size = 1390566 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/26/d8/3f264ed379538791dcf5bbdd6ada4deb72e0d356e4614a00b3f4c784c482/pyshacl-0.30.0-py3-none-any.whl", hash = "sha256:093fa7b203bf5ae5f43490f0367ea71933a8b585e300680fcc442d2d6ac62c08", size = 1290456 },
 ]
 
 [[package]]
@@ -1096,6 +1145,11 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/96/12/f43307e7b1f871ed5424fc6eff1fb8c85637dbaed6a401748c2b72c97d7a/rdflib-7.1.3.tar.gz", hash = "sha256:f3dcb4c106a8cd9e060d92f43d593d09ebc3d07adc244f4c7315856a12e383ee", size = 4867170 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/9c/3c/f508a9b346078ea0bd49c8261430204fcfb4150352d51fa2a54a4d9eacda/rdflib-7.1.3-py3-none-any.whl", hash = "sha256:5402310a9f0f3c07d453d73fd0ad6ba35616286fe95d3670db2b725f3f539673", size = 564909 },
+]
+
+[package.optional-dependencies]
+html = [
+    { name = "html5rdf" },
 ]
 
 [[package]]
@@ -1274,7 +1328,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "kurra", specifier = ">=1.1.0" },
+    { name = "kurra", specifier = ">=1.4.2" },
     { name = "notebook", specifier = ">=7.3.2" },
     { name = "rdflib", specifier = ">=7.1.3" },
 ]
