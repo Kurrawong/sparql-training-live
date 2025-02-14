@@ -1,16 +1,19 @@
 ![](images/KurrawongAI_350.png)
 
-# SPARQL Training Notebooks
+# SPARQL Training Live
 
-This repository contains [Jupyter Notebooks]() for training in the [SPARQL]() query language.
+This repository contains [Jupyter Notebooks](https://jupyter.org/) for training in the [SPARQL](https://www.w3.org/TR/sparql11-query/) query language. These notebooks can be run live, online. See the Binder button below.
 
-The content is delivered in a series of modules, the first 4 of which are entirely generic and the 5th - "QALI-specific querying" - uses examples from Queensland's Address Database, _QALI_, but is generic in the concepts conveyed. The QALI database is likely to be delivered online in a form that can be SPARQL queried but queryable data is supplied in the notwbook too.
+The content is delivered in a series of modules, the first 4 of which are entirely generic and the 5th - "QALI-specific querying" - uses examples from Queensland's Address Database, _QALI_, but is generic in the concepts conveyed. The QALI database is likely to be delivered online in a form that can be SPARQL queried but queryable data is supplied in the notebook too.
 
 1. Intro to RDF
 2. Querying RDF - SPARQL
 3. All about SPARQL
 4. Extending SPARQL
 5. QALI-specific querying
+
+Click here to run the first module in your web browser:  
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kurrawong/sparql-training-live/HEAD?filepath=module-1.ipynb)
 
 ## License
 
