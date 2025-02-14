@@ -8,4 +8,5 @@ dependencies = [
     "kurra>=1.4.2",
     "notebook>=7.3.2",
     "rdflib>=7.1.3",
+    "isodate==0.7.2",
 ]
