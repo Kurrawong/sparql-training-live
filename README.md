@@ -6,14 +6,16 @@ This repository contains [Jupyter Notebooks](https://jupyter.org/) for training 
 
 The content is delivered in a series of modules, the first 4 of which are entirely generic and the 5th - "QALI-specific querying" - uses examples from Queensland's Address Database, _QALI_, but is generic in the concepts conveyed. The QALI database is likely to be delivered online in a form that can be SPARQL queried but queryable data is supplied in the notebook too.
 
+Training Modules:
+
 1. Intro to RDF
 2. Querying RDF - SPARQL
 3. All about SPARQL
 4. Extending SPARQL
 5. QALI-specific querying
 
-Click here to run the first module in your web browser:  
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kurrawong/sparql-training-live/HEAD?filepath=module-1.ipynb)
+Click here to run the first module in your web browser: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Kurrawong/sparql-training-live/HEAD?urlpath=%2Fdoc%2Ftree%2Fmodule-1.ipynb)
+
 
 ## License
 
