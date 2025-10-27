@@ -19,8 +19,8 @@ Training Modules:
 3. All about SPARQL
 4. Extending SPARQL
 5. Project-specific querying
-    a. QALI - Queensland's Address DB
-    b. BDR - Biodiversity Data Repository
+    1. QALI - Queensland's Address DB
+    2. BDR - Biodiversity Data Repository
 
 Click here to run the first module in your web browser: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Kurrawong/sparql-training-live/HEAD?urlpath=%2Fdoc%2Ftree%2Fmodule-1.ipynb)
 
@@ -31,13 +31,13 @@ The documentation and code in this repository are licensed for reuse under the [
 
 &copy; KurrawongAI, 2025
 
-**Module 5a: QALI**: The address data used in examples is also available for reuse under the same license but with the following copyright notice:
+**Module 5i: QALI**: The address data used in examples is also available for reuse under the same license but with the following copyright notice:
 
 &copy; The State of Queensland, 2025
 
-**Module 5b: BDR**: The BDR's data is sourced from Australian States & Territories and managed by the [Department of Climate Change, Energy, the Environment and Water (DCCEEW)](https://www.dcceew.gov.au/).
+**Module 5ii: BDR**: The BDR's data is sourced from Australian States & Territories and managed by the [Department of Climate Change, Energy, the Environment and Water (DCCEEW)](https://www.dcceew.gov.au/).
 
-$copy; Department of Climate Change, Energy, the Environment and Water, 2025
+&copy; Department of Climate Change, Energy, the Environment and Water, 2025
 
 ## Contact
 
