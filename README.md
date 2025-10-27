@@ -4,12 +4,9 @@
 
 This repository contains [Jupyter Notebooks](https://jupyter.org/) for training in the [SPARQL](https://www.w3.org/TR/sparql11-query/) query language. These notebooks can be run live, online, without installing anything, see the Binder button below.
 
-The content is delivered in a series of modules, the first 4 of which are entirely generic and the 5th is project-specific. So far there are 2 project modules 5s: 
+The content is delivered in a series of modules, the first 4 of which are entirely generic and the 5th is project-specific. So far there are 2 project modules.
 
-1. QALI - Queensland's Address DB
-2. BDR - Biodiversity Data Repository
-
-Unlike modules 1 - 4, these require specific system access to execute, but they should be informative even for those without access. Notes on how to use these different 5th modules are contained within them.
+Unlike modules 1 - 4, some of these require specific system access to execute, but they should be informative even for those without access. Notes on how to use these different 5th modules are contained within them.
 
 Training Modules:
 
