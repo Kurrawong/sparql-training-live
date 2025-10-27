@@ -9,8 +9,7 @@ The content is delivered in a series of modules, the first 4 of which are entire
 1. QALI - Queensland's Address DB
 2. BDR - Biodiversity Data Repository
 
-Unlike modules 1 - 4, these require specific system access to execute but they should be informative even for those without access. Notes on how to use these different 5th modules are contained within them.
-
+Unlike modules 1 - 4, these require specific system access to execute, but they should be informative even for those without access. Notes on how to use these different 5th modules are contained within them.
 
 Training Modules:
 
@@ -24,6 +23,25 @@ Training Modules:
 
 Click here to run the first module in your web browser: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Kurrawong/sparql-training-live/HEAD?urlpath=%2Fdoc%2Ftree%2Fmodule-1.ipynb)
 
+## More about Jupyter Notebooks
+
+Jupyter Notebooks are programming script files, in this case written in Python, interspersed with documentation and places to print results. This lets you read about some code, execute the code, and then see the results from execution - print outs but also errors etc. - all within the same User Interface. Usually people who are just using Notebooks, instead of developing them, view them in web browsers that render the notebooks for them and execute the code on a server, allowing them to not have to install anything.
+
+Under the hood, Notebook files are just (Python) code and documentation in [Markdown](https://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Working%20With%20Markdown%20Cells.html) arranged into a series of Cells which the user can execute one-by-one or all at once.
+
+## More ways to run
+
+Perhaps you'd like to run these training modules locally, i.e. on your computer, within a programming environment, so you can experiment with them?
+
+If so, you will need to:
+
+1. clone this repository down to your local computer
+   * If this is new to you, see this documentation: [GitHub's Cloning a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
+2. access it via a desktop programming tool 
+    * there are many tools you could choose for this that support Jupyter Notebooks, like [VS Code](https://code.visualstudio.com/) or [PyCharm Professional](https://www.jetbrains.com/pycharm/). Check out this list <https://blog.reviewnb.com/choosing-the-right-ide/>
+    * each of those tools has plenty of resources to get you started. For PyCharm, see this video on YouTube: [How To Run Jupyter Notebook In PyCharm?](https://www.youtube.com/watch?v=9Ft8Iwegc4E)
+
+Once you have it cloned and you are accessing it in your programming environment, you can run it can change anything you like!
 
 ## License
 
