@@ -209,7 +209,7 @@ pygments==2.19.2
     #   rich
 pyparsing==3.2.5
     # via rdflib
-pyshacl==0.30.0
+pyshacl==0.30.1
     # via kurra
 python-dateutil==2.9.0.post0
     # via
