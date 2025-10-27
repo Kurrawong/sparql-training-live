@@ -1504,7 +1504,7 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "isodate", specifier = "==0.7.2" },
-    { name = "kurra", specifier = ">=1.4.2" },
+    { name = "kurra", specifier = ">=1.5.8" },
     { name = "notebook", specifier = ">=7.3.2" },
     { name = "rdflib", specifier = ">=7.1.3" },
     { name = "timefuncs", specifier = ">=0.1.4" },
