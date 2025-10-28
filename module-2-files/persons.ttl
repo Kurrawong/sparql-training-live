@@ -1,0 +1,47 @@
+PREFIX ex: <http://example.com/>
+PREFIX people: <https://linked.data.gov.au/dataset/people/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+
+# linking Patient to Person, using information from schema.org
+schema:Person
+    rdfs:subclassOf schema:Person ;
+.
+
+people:nick
+    a schema:Patient ;
+    schema:name "Nick" ;
+    schema:age 42 ;
+    schema:parent people:george ;
+.
+
+people:george
+    a schema:Person ;
+    schema:name "George" ;
+    schema:age 70 ;
+    ex:sex ex:male ;
+    schema:spouse people:cathy ;
+    schema:parent
+        people:miko ,
+        people:vasma ;
+.
+
+people:cathy
+    a schema:Person ;
+    schema:name "Cathy" ;
+    ex:sex ex:female ;
+    schema:age 68 ;
+    schema:spouse people:george ;
+.
+
+people:miko
+    a schema:Person ;
+    schema:name "Miko" ;
+    ex:sex ex:male ;
+.
+
+people:vasma
+    a schema:Person ;
+    schema:name "Vasma" ;
+    ex:sex ex:female ;
+.
