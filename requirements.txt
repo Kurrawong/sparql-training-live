@@ -63,9 +63,9 @@ beautifulsoup4==4.14.2 \
     --hash=sha256:2a98ab9f944a11acee9cc848508ec28d9228abfd522ef0fad6a02a72e0ded69e \
     --hash=sha256:5ef6fa3a8cbece8488d66985560f97ed091e22bbc4e9c2338508a9d5de6d4515
     # via nbconvert
-bleach==6.2.0 \
-    --hash=sha256:117d9c6097a7c3d22fd578fcd8d35ff1e125df6736f554da4e432fdd63f31e5e \
-    --hash=sha256:123e894118b8a599fd80d3ec1a6d4cc7ce4e5882b1317a7e1ba69b56e95f991f
+bleach==6.3.0 \
+    --hash=sha256:6f3b91b1c0a02bb9a78b5a454c92506aa0fdf197e1d5e114d2e00c6f64306d22 \
+    --hash=sha256:fe10ec77c93ddf3d13a73b035abaac7a9f5e436513864ccdad516693213c65d6
     # via nbconvert
 certifi==2025.10.5 \
     --hash=sha256:0f212c2744a9bb6de0c56639a6f68afe01ecd92d91f14ae897c4fe7bbeeef0de \
@@ -253,13 +253,13 @@ idna==3.11 \
     #   httpx
     #   jsonschema
     #   requests
-ipykernel==7.0.1 \
-    --hash=sha256:2d3fd7cdef22071c2abbad78f142b743228c5d59cd470d034871ae0ac359533c \
-    --hash=sha256:87182a8305e28954b6721087dec45b171712610111d494c17bb607befa1c4000
+ipykernel==7.1.0 \
+    --hash=sha256:58a3fc88533d5930c3546dc7eac66c6d288acde4f801e2001e65edc5dc9cf0db \
+    --hash=sha256:763b5ec6c5b7776f6a8d7ce09b267693b4e5ce75cb50ae696aaefb3c85e1ea4c
     # via jupyterlab
-ipython==8.37.0 \
-    --hash=sha256:ca815841e1a41a1e6b73a0b08f3038af9b2252564d01fc405356d34033012216 \
-    --hash=sha256:ed87326596b878932dbcb171e3e698845434d8c61b8d8cd474bf663041a9dcf2
+ipython==9.6.0 \
+    --hash=sha256:5603d6d5d356378be5043e69441a072b50a5b33b4503428c77b04cb8ce7bc731 \
+    --hash=sha256:5f77efafc886d2f023442479b8149e7d86547ad0a979e9da9f045d252f648196
     # via
     #   ipykernel
     #   sparql-notebook
@@ -359,9 +359,9 @@ kurra==1.5.9 \
     --hash=sha256:020c1f5894d8cc3d742a3e4e9e6e562bc369ea105f3ab6a0f17f0e87e0de3a02 \
     --hash=sha256:06cbefb1dd9808abbb98001de489852790691802965b86b8b6744584867d113a
     # via sparql-notebook
-lark==1.3.0 \
-    --hash=sha256:80661f261fb2584a9828a097a2432efd575af27d20be0fd35d17f0fe37253831 \
-    --hash=sha256:9a3839d0ca5e1faf7cfa3460e420e859b66bcbde05b634e73c369c8244c5fa48
+lark==1.3.1 \
+    --hash=sha256:b426a7a6d6d53189d318f2b6236ab5d6429eaf09259f1ca33eb716eed10d2905 \
+    --hash=sha256:c629b661023a014c37da873b4ff58a817398d12635d3bbb2c5a03be7fe5d1e12
     # via rfc3987-syntax
 markdown-it-py==4.0.0 \
     --hash=sha256:87327c59b172c5011896038353a81343b6754500a08cd7a4973bb48c6d578147 \
@@ -559,9 +559,9 @@ pyparsing==3.2.5 \
     --hash=sha256:2df8d5b7b2802ef88e8d016a2eb9c7aeaa923529cd251ed0fe4608275d4105b6 \
     --hash=sha256:e38a4f02064cf41fe6593d328d0512495ad1f3d8a91c4f73fc401b3079a59a5e
     # via rdflib
-pyshacl==0.30.0 \
-    --hash=sha256:093fa7b203bf5ae5f43490f0367ea71933a8b585e300680fcc442d2d6ac62c08 \
-    --hash=sha256:449188b07ca46681097d732e9308d42c211ee903784742f8c3e8a0e36e98f728
+pyshacl==0.30.1 \
+    --hash=sha256:d7e0c21b25e948bb643dbc5db6258da64a90a8ac89055c1fe562b469031072aa \
+    --hash=sha256:df712ac961b1ee7bcf0b27fa71ecab7785a135b2af69783ce30cb05fe41bcaf5
     # via kurra
 python-dateutil==2.9.0.post0 \
     --hash=sha256:37dd54208da7e1cd875388217d5e00ebd4179249f90fb72437e91a35459a0ad3 \
@@ -663,9 +663,9 @@ pyzmq==27.1.0 \
     #   ipykernel
     #   jupyter-client
     #   jupyter-server
-rdflib==7.3.0 \
-    --hash=sha256:2da6a5d3d0da2d095dd7de49e388db1c97542efc035bda4000c154d2b6cf8a6e \
-    --hash=sha256:501e29710f1f7f8e5a0b075483050ef512da5130d97f255bd57789424d18e643
+rdflib==7.4.0 \
+    --hash=sha256:0af003470404ff21bc0eb04077cc97ee96da581f2429bf42a8e163fc1c2797bc \
+    --hash=sha256:c8ee16c31848c19c174aed96185327ea139ca3d392fac7fa882ddf5687f8f533
     # via
     #   kurra
     #   owlrl
@@ -892,9 +892,9 @@ wcwidth==0.2.14 \
     # via
     #   prettytable
     #   prompt-toolkit
-webcolors==24.11.1 \
-    --hash=sha256:515291393b4cdf0eb19c155749a096f779f7d909f7cceea072791cb9095b92e9 \
-    --hash=sha256:ecb3d768f32202af770477b8b65f318fa4f566c22948673a977b00d589dd80f6
+webcolors==25.10.0 \
+    --hash=sha256:032c727334856fc0b968f63daa252a1ac93d33db2f5267756623c210e57a4f1d \
+    --hash=sha256:62abae86504f66d0f6364c2a8520de4a0c47b80c03fc3a5f1815fedbef7c19bf
     # via jsonschema
 webencodings==0.5.1 \
     --hash=sha256:a0af1213f3c2226497a97e2b3aa01a7e4bee4f403f95be16fc9acd2947514a78 \
